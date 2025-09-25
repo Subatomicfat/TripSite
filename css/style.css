@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    border-radius: 0%;
+}
+
+:root {
+    --Amarelo_Mostarda: #e4ab0c;
+    --Melancia: #f47c84;
+    --Verde_Amarelado: #c4a414;
+    --Azul_Jeans: #54749c;
+    --Azul_Lavanda: #7484ac;
+}
+
+.nav-top {
+    background-color: var(--Azul_Lavanda);
+}
+
+.nav-item{
+    margin: 0.5em !important;
+    padding: 0.5px !important;
+}
+
+.nav-link {
+    color: var(--Verde_Amarelado) !important;
+    background-color: var(--Azul_Jeans) !important;
+    border-radius: 0.5em !important;
+}
+
+.btn-buscar {
+    color: var(--Verde_Amarelado) !important;
+    background-color: var(--Azul_Jeans) !important;
+}
+
+.car-img {
+    max-height: 50em !important;
+}
+
+.carousel-caption {
+    width: auto !important;
+    background: transparent;
+    color: var(--Azul_Jeans);
+}
+
+.divisao {
+    text-align: center !important;
+    color: var(--Verde_Amarelado) !important;
+    background-color: var(--Azul_Lavanda) !important;
+    padding: 2em !important;
+}
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1% !important;
+}
+
+.card{
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+
+.card p{
+    text-align: justify !important;
+}
+
+.card h4{
+    color: brown !important;
+}
+
+.sec-contato{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-top: 5% !important;
+}
+
+.links {
+    text-align: center;
+    padding: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.mapa{
+    margin-top: 5%!important;
+}
+footer{
+    background-color: var(--Azul_Lavanda) !important;
+    color: var(--Verde_Amarelado)!important;
+    text-align: center !important;
+}

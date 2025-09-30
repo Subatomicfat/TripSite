@@ -1,200 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jalapão</title>
+  <title>Jalapão - Paraíso do Tocantins</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Navbar -->
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark nav-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)"></a>
-          <p>
-            <img class="img" src="img/branco.webp" alt="Logo Image" width="100px">
-          </p>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-warning" href="#">Jalapão</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Contatos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Pacotes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Sobre</a>
-            </li>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#destaques">Destaques</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pacotes">Pacotes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contatos">Contato</a></li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Pesquisar">
-            <button class="btn btn-buscar" type="button">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
   </header>
-  <main>
-    <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-      </div>
+  <!-- Hero Section -->
+  <section class="text-light text-center p-5 bg-warning bg-gradient">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Descubra o Jalapão</h1>
+      <p class="lead">Um dos destinos mais incríveis do Brasil com cachoeiras, dunas e fervedouros únicos.</p>
+      <a href="#pacotes" class="btn btn-dark btn-lg mt-3">Ver Pacotes</a>
+    </div>
+  </section>
 
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/J-05.jpg" alt="Los Angeles" class="d-block w-100" car-img>
-          <div class="carousel-caption">
-            <h3> Rio do Sono</h3>
-            <p>Com formato de ferradura e alimentada pelo Rio Novo, a Cachoeira da Velha é a maior e mais famosa. Somadas, as duas quedas têm cerca de 100 metros de largura e 15 de altura e não é aberta para banhos. Mas, perto dali está a Prainha do Rio Novo, um dos mais puros do mundo.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/J-03.jpg" alt="Chicago" class="d-block w-100" car-img>
-          <div class="carousel-caption">
-            <h3>Rio Novo</h3>
-            <p>Uma outra opção para quem gosta de adrenalina é fazer um rafting especial pelo Rio Novo que marca o roteiro da sua viagem com corredeiras bastante desafiadoras e incríveis visuais para as chapadas e praias de areia fina. Esse passeio será completo, com a possibilidade de acampar à beira do rio, em uma autêntica experiência de imersão na natureza.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/J-02.jpg" alt="New York" class="d-block w-100" car-img>
-          <div class="carousel-caption">
-            <h3>Fervedouro Bela Vista</h3>
-            <p>Outra atração são os fervedouros do Jalapão, onde a água brota com tanta pressão do chão que não deixa ninguém afundar. Um dos mais famosos é o Fervedouro do Ceiça, em Mateiros, que limita o banho a dez visitantes por vez e permanência de 20 minutos.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="ratio ratio-16x9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dl3qjYssjZA?si=yA-4b-qALsWeEyRn&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-          </div>
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/J-05.jpg" class="d-block w-100" alt="Cachoeira da Velha">
+        <div class="carousel-caption bg-dark bg-opacity-50 p-3 rounded">
+          <h3>Cachoeira da Velha</h3>
+          <p>A maior do Jalapão, com mais de 100m de largura e paisagens impressionantes.</p>
         </div>
       </div>
-
-      <!-- Left and right controls/icons -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-
-    <div class="container-fluid divisao">
-      <h2>Conheça o Tocantins</h2>
-    </div>
-     <!--Pacotes-->
-        <section class="row sec-pacotes" id="pacotes">
-            <div class="card col-3" style="width:300px">
-                <img class="card-img-top" src="img/286082103_3193355554279027_4100539298468683774_n-1.jpg" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">John Doe</h4>
-                    <p class="card-text">Some example text.</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-            </div>
-            <div class="card col-3" style="width:300px">
-                <img class="card-img-top" src="img/What-is-the-best-time-to-visit-Jalapao.webp" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">John Doe</h4>
-                    <p class="card-text">Some example text.</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-            </div>
-            <div class="card col-3" style="width:300px">
-                <img class="card-img-top" src="img/caminho_das_aguas_2.webp" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">John Doe</h4>
-                    <p class="card-text">Some example text.</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-            </div>
-            <div class="card col-3" style="width:300px">
-                <img class="card-img-top" src="img/when-is-the-best-time-to-visit-jalapao.jpg" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">John Doe</h4>
-                    <p class="card-text">Some example text.</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-            </div>
-
-        </section>
-
-        <!--Divisão-->
-        <div class="container-fluid divisao">
-            <h2>Fale Conosco</h2>
+      <div class="carousel-item">
+        <img src="img/J-03.jpg" class="d-block w-100" alt="Rio Novo">
+        <div class="carousel-caption bg-dark bg-opacity-50 p-3 rounded">
+          <h3>Rio Novo</h3>
+          <p>Um dos rios mais limpos do mundo, perfeito para rafting e acampamentos.</p>
         </div>
-        <!--Contatos-->
-        <section class="row sec-contato" id="contatos">
-            <div class="col-sm-6">
-                <form action="">
-                    <div class="mb-3 mt-3">
-                        <label for="nome" class="form-label">Nome:</label>
-                        <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" name="nome">
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Informe seu email.."
-                            name="email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="comment">Mensagem:</label>
-                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-                    </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/J-02.jpg" class="d-block w-100" alt="Fervedouro Bela Vista">
+        <div class="carousel-caption bg-dark bg-opacity-50 p-3 rounded">
+          <h3>Fervedouro Bela Vista</h3>
+          <p>Águas cristalinas onde ninguém afunda, uma experiência única!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
 
+  <!-- Destaques -->
+  <section class="container py-5" id="destaques">
+    <h2 class="text-center mb-4">Principais Atrações</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="img/dunas.jpg" class="card-img-top" alt="Dunas do Jalapão">
+          <div class="card-body">
+            <h5 class="card-title">Dunas Douradas</h5>
+            <p class="card-text">Formadas a partir da erosão da Serra do Espírito Santo, as dunas são um pôr do sol inesquecível.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="img/cachoeira-formiga.jpg" class="card-img-top" alt="Cachoeira da Formiga">
+          <div class="card-body">
+            <h5 class="card-title">Cachoeira da Formiga</h5>
+            <p class="card-text">Águas cristalinas de tom esverdeado, perfeita para banho e relaxamento.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="img/fervedouro.jpg" class="card-img-top" alt="Fervedouro do Ceiça">
+          <div class="card-body">
+            <h5 class="card-title">Fervedouro do Ceiça</h5>
+            <p class="card-text">O mais famoso do Jalapão, uma piscina natural onde a água não deixa afundar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
+  <!-- Pacotes -->
+  <section class="bg-light py-5" id="pacotes">
+    <div class="container">
+      <h2 class="text-center mb-4">Nossos Pacotes</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow text-center">
+            <div class="card-body">
+              <h4 class="card-title">Pacote 3 dias</h4>
+              <p class="card-text">Passeios básicos, fervedouros e cachoeiras.</p>
+              <p class="fw-bold">R$ 1.200</p>
+              <a href="#" class="btn btn-warning">Reservar</a>
             </div>
-            <div class="col-sm-6">
-                <div class="row links">
-                    <div class="col-sm-6">
-                        <h6>WhatsApp</h6>
-                        <a href="https://wa.me/63984887462"
-                            target="_blank">
-                            <img src="img/whatsapp.png" width="100px">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <h6>Instagram</h6>
-                        <a href="https://www.instagram.com/ewnixolas/" target="_blank">
-                            <img src="img/Insta.png" width="100px">
-                        </a>
-                    </div>
-                    <div class="mapa">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d490.8794676405939!2d-48.33521492779253!3d-10.177750278672123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9324cb662845b86b%3A0x8e5983c9c417a2b!2sSenac%20Idiomas!5e0!3m2!1spt-BR!2sbr!4v1758830085920!5m2!1spt-BR!2sbr"
-                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-
-                </div>
-
-
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow text-center border-warning">
+            <div class="card-body">
+              <h4 class="card-title">Pacote 5 dias</h4>
+              <p class="card-text">Inclui rafting e visita às dunas.</p>
+              <p class="fw-bold">R$ 1.950</p>
+              <a href="#" class="btn btn-warning">Reservar</a>
             </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow text-center">
+            <div class="card-body">
+              <h4 class="card-title">Pacote 7 dias</h4>
+              <p class="card-text">Experiência completa, com camping e trilhas.</p>
+              <p class="fw-bold">R$ 2.700</p>
+              <a href="#" class="btn btn-warning">Reservar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Depoimentos -->
+  <section class="container py-5" id="depoimentos">
+    <h2 class="text-center mb-4">O que nossos viajantes dizem</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-3 bg-warning bg-opacity-25 rounded shadow">
+          <p>"Foi a melhor viagem da minha vida, cada paisagem é única!"</p>
+          <h6>- Ana Souza</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-3 bg-warning bg-opacity-25 rounded shadow">
+          <p>"O fervedouro é surreal, parece outro planeta."</p>
+          <h6>- Carlos Mendes</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-3 bg-warning bg-opacity-25 rounded shadow">
+          <p>"Pacote completo, bem organizado e guias excelentes."</p>
+          <h6>- Juliana Lima</h6>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        </section>
+  <!-- FAQ -->
+  <section class="bg-light py-5" id="faq">
+    <div class="container">
+      <h2 class="text-center mb-4">Perguntas Frequentes</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">Qual a melhor época para visitar o Jalapão?</button></h2>
+          <div id="q1" class="accordion-collapse collapse show">
+            <div class="accordion-body">Entre maio e setembro, durante a estação seca, quando os acessos estão melhores.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">Precisa de guia turístico?</button></h2>
+          <div id="q2" class="accordion-collapse collapse">
+            <div class="accordion-body">Sim, é altamente recomendado pela dificuldade de acesso e segurança.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">É possível acampar no Jalapão?</button></h2>
+          <div id="q3" class="accordion-collapse collapse">
+            <div class="accordion-body">Sim, existem pacotes com camping às margens de rios e fervedouros.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </main>
-    <footer class="fixed-bottom">
-        <h5>&copy; Jalapão Original, todos os direitos reservados a NSTECH.</h5>
-    </footer>
+  <!-- Contato -->
+  <section class="container py-5" id="contatos">
+    <h2 class="text-center mb-4">Fale Conosco</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3"><label for="nome" class="form-label">Nome:</label><input type="text" class="form-control" id="nome"></div>
+          <div class="mb-3"><label for="email" class="form-label">Email:</label><input type="email" class="form-control" id="email"></div>
+          <div class="mb-3"><label for="mensagem" class="form-label">Mensagem:</label><textarea class="form-control" rows="5" id="mensagem"></textarea></div>
+          <button type="submit" class="btn btn-warning">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5>Redes Sociais</h5>
+        <a href="https://wa.me/63984887462" target="_blank"><img src="img/whatsapp.png" width="60"></a>
+        <a href="https://www.instagram.com/ewnixolas/" target="_blank"><img src="img/Insta.png" width="60"></a>
+        <div class="mt-3">
+          <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="250" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center p-3 mt-5">
+    <p>&copy; 2025 Jalapão Original - Desenvolvido por NSTECH</p>
+    <p><a href="#top" class="text-warning text-decoration-none">Voltar ao topo ↑</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
